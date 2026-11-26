@@ -4,10 +4,13 @@
 
 Getting started with SSH/Secure Shell at Loyola.
 
-Not all computer systems in the department are intended for general use,
-and some are restricted to faculty and staff usage. (And many are
-reserved for testing purposes.) The systems available for general use
-include random.cs.luc.edu and infinity.cs.luc.edu.
+The department provides two systems for general use:
+
+-  **dijkstra.cs.luc.edu**: the :doc:`Dijkstra Computational Cluster
+   </dijkstra/overview>`. This is the system you connect to with SSH.
+
+-  **jhub.cs.luc.edu**: a JupyterHub server. When you are off campus, it
+   is available only through the web.
 
 By default, SSH traffic (on port 22) is blocked outside of Loyola. You
 will need to use the VPN or the public key authentication to connect to

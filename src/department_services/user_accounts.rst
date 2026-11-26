@@ -19,7 +19,7 @@ replacement password to your Loyola e-mail address. You may also opt to
 meet the lab manager in person but must show your Loyola or a
 government-issued id with your photo on it.
 
-To reset your password, you should log into random.cs.luc.edu using a
+To reset your password, you should log into dijkstra.cs.luc.edu using a
 secure shell client (a.k.a. SSH) and use the passwd program to reset it.
 We recommend that you are on campus when you need to change your
 password.
