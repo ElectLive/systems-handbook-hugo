@@ -1,6 +1,6 @@
-##########
- Overview
-##########
+################################
+ Dijkstra Computational Cluster
+################################
 
 Dijkstra is the Loyola University Chicago (LUC) Computer Science (CS)
 Department's primary high-performance cluster computer. It is intended
@@ -57,3 +57,9 @@ Description**.
 
 Dijkstra's software bill of materials is provided in **System Software
 Description**.
+
+.. toctree::
+   :hidden:
+
+   system_hardware_descriptions.rst
+   software_bill_of_materials.rst

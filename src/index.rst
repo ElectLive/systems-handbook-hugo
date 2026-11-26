@@ -20,10 +20,10 @@ What you will find here
    facilities, virtualization, web hosting, Google Apps, and the people
    to ask about each.
 
-:doc:`Dijkstra </dijkstra/overview>`
-   Our high-performance computational cluster, used for teaching and
-   research. This section includes its hardware descriptions and
-   software bill of materials.
+:doc:`Research Computing </dijkstra/overview>`
+   Dijkstra, our high-performance computational cluster, used for
+   teaching and research, with its hardware descriptions and software
+   bill of materials.
 
 :doc:`How To </how_to/getting_help>`
    Practical guides: getting help, connecting remotely, using Secure
@@ -54,11 +54,9 @@ a specific topic.
 .. toctree::
    :maxdepth: 2
    :hidden:
-   :caption: Dijkstra
+   :caption: Research Computing
 
    dijkstra/overview.rst
-   dijkstra/system_hardware_descriptions.rst
-   dijkstra/software_bill_of_materials.rst
 
 .. toctree::
    :maxdepth: 2
