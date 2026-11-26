@@ -4,10 +4,4 @@ build-html:
 	sphinx-build --write-all src html
 
 create-dev:
-	pre-commit install
-	pre-commit autoupdate
 	uv sync
-	uv build
-
-deploy-gh:
-	ghp-import --no-jekyll --push --force --remote origin --branch gh-pages html

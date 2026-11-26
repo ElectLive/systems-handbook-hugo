@@ -1,35 +1,54 @@
-name: Build And Release On Tag
+name: Build And Deploy To GitHub Pages
 
 on:
   workflow_dispatch:
   push:
-    tags:
-      - '*'
+    branches:
+      - main
 
 permissions:
-  contents: write
+  contents: read
+  pages: write
   id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout latest commit
-        uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v7
         with:
-            show-progress: true
-            lfs: false
+          fetch-depth: 0
+          fetch-tags: true
 
-      - name: Setup Python 3.13 x64
-        uses: actions/setup-python@v5
+      - name: Set up uv
+        uses: astral-sh/setup-uv@v10
+
+      - name: Install dependencies
+        run: make create-dev
+
+      - name: Build the site
+        run: uv run make build-html
+
+      - name: Configure Pages
+        uses: actions/configure-pages@v6
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v5
         with:
-            python-version: '3.13'
-            architecture: 'x64'
+          path: html
 
-      - name: Build the project
-        run: |
-          pip install pre-commit
-          make create-dev
-          source .venv/bin/activate
-          make build-html
-          make deploy-gh
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
