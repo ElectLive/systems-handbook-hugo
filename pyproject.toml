@@ -2,7 +2,7 @@
 name = "systems-handbook"
 version = "0.2"
 description = "Loyola University Chicago CS Systems Handbook"
-authors = [{ name = "Nicholas M. Synovic", email = "nicholas.synovic@gmail.com" }]
+authors = [{ name = "CS Department, Systems Team" }]
 requires-python = ">=3.13,<4.0"
 readme = "README.md"
 keywords = ["Sphinx Site", "Loyola University Chicago"]

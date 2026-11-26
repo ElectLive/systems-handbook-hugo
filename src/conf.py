@@ -8,8 +8,8 @@
 
 project = "Loyola University Chicago CS Systems Handbook"
 html_title = "Loyola University Chicago CS Systems Handbook"
-copyright = "2025, Nicholas M. Synovic"
-author = "Nicholas M. Synovic"
+copyright = "2025, CS Department, Systems Team"
+author = "CS Department, Systems Team"
 release = open("_version", "r").readline()
 
 # -- General configuration ---------------------------------------------------
