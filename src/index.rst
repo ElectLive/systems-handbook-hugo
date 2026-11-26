@@ -1,12 +1,45 @@
-#######
- About
-#######
+#####################
+ CS Systems Handbook
+#####################
 
-A handbook for systems and services available to faculty, staff, and
-students at Loyola University Chicago's Computer Science Department.
+Welcome to the handbook for the computing systems and services of the
+Computer Science Department at Loyola University Chicago. It is written
+for the faculty, staff, and students who use them.
+
+Use it to find out what the department provides, how to get an account
+and connect to our systems, and who to contact when something goes
+wrong. If you are new to the department, start with :doc:`User Accounts
+</department_services/user_accounts>` and :doc:`Getting Help
+</how_to/getting_help>`.
+
+What you will find here
+=======================
+
+:doc:`Department Services </department_services/people>`
+   The services the department runs itself: user accounts, labs and
+   facilities, virtualization, web hosting, Google Apps, and the people
+   to ask about each.
+
+:doc:`Dijkstra </dijkstra/overview>`
+   Our high-performance computational cluster, used for teaching and
+   research. This section includes its hardware descriptions and
+   software bill of materials.
+
+:doc:`How To </how_to/getting_help>`
+   Practical guides: getting help, connecting remotely, using Secure
+   Shell, and working at the command line.
+
+:doc:`ITS Services </its_services/printing>`
+   Services provided with Loyola's Information Technology Services:
+   printing, the university VPN, wireless, and the Windows labs and
+   desktop support.
+
+Use the navigation menu to browse every page, or the search box to find
+a specific topic.
 
 .. toctree::
    :maxdepth: 2
+   :hidden:
    :caption: Department Services
 
    department_services/content_management.rst
@@ -20,6 +53,7 @@ students at Loyola University Chicago's Computer Science Department.
 
 .. toctree::
    :maxdepth: 2
+   :hidden:
    :caption: Dijkstra
 
    dijkstra/overview.rst
@@ -28,12 +62,7 @@ students at Loyola University Chicago's Computer Science Department.
 
 .. toctree::
    :maxdepth: 2
-   :caption: Prim
-
-   prim/system_administration.rst
-
-.. toctree::
-   :maxdepth: 2
+   :hidden:
    :caption: How To
 
    how_to/command_line_basics.rst
@@ -43,6 +72,7 @@ students at Loyola University Chicago's Computer Science Department.
 
 .. toctree::
    :maxdepth: 2
+   :hidden:
    :caption: ITS Services
 
    its_services/printing.rst
