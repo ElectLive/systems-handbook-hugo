@@ -19,8 +19,8 @@ major roles in our department that are applicable to computing.
    chairperson has the ultimate responsibility for all department
    matters, especially the departmental computing budget.
 
--  **Computing Director**: Neil Klingensmith. Please contact the
-   Computing Director with any suggestions you have for improvement or
+-  **Computing Director**: `Neil Klingensmith <https://www.luc.edu/cs/aboutus/people/profiles/klingensmithneil.shtml>`__.
+   Please contact the Computing Director with any suggestions you have for improvement or
    with technical support questions. The Computing Director is
    ultimately responsible for the implementation of all computing
    initiatives for the department, in particular those that support our
@@ -34,8 +34,9 @@ major roles in our department that are applicable to computing.
    be ableto resolve your problem immediately. Please allow 24-48 hours
    for a response to any non-emergency need.
 
--  **Computing Committee**: George K. Thiruvathukal, Neil Klingensmith,
-   and Dmitry Dligach. The Computing Committee meets at least twice per
+-  **Computing Committee**: `George K. Thiruvathukal <https://gkt.sh>`__,
+   `Neil Klingensmith <https://www.luc.edu/cs/aboutus/people/profiles/klingensmithneil.shtml>`__,
+   and `Dmitry Dligach <https://www.luc.edu/cs/aboutus/people/profiles/dligachdmitriy.shtml>`__. The Computing Committee meets at least twice per
    academic year and drafts recommendations and resolutions for future
    computing initiatives that support the department's teaching and
    research mission and those of collaborating departments. The
