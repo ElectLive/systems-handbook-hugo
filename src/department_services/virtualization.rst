@@ -10,7 +10,7 @@ department. We can host these with a dedicated public IP address
 would be visible when you connect via the Loyola VPN. Given our present
 resource limitations, we can only provide virtual machines on a limited
 basis, primarily for faculty and student research/outreach projects.
-Please send your requests to the vm alias (see
+Please send your requests to helpdesk@cs.luc.edu (see
 :doc:`Getting Help </how_to/getting_help>`) and make sure you include
 the following information:
 

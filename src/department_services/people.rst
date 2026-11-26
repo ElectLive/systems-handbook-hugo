@@ -8,10 +8,10 @@ Guide to various people/roles in the department.
  Faculty
 *********
 
-We pride ourselves in paying attention to human interaction. While the
-support aliases described in the previous section must be used whenever
-you want something to be done, you may want to know something about the
-major roles in our department that are applicable to computing.
+We pride ourselves in paying attention to human interaction. While requests
+must be sent to the helpdesk (see :doc:`Getting Help
+</how_to/getting_help>`) whenever you want something to be done, you may
+want to know something about the major roles in our department that are applicable to computing.
 
 -  **Chairperson**: `George K. Thiruvathukal <https://gkt.sh>`__. Please
    contact the Chairperson with any suggestions you have for

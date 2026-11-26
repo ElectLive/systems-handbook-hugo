@@ -12,8 +12,8 @@ lock accounts after a certain period.)
 
 We presently lack a self-service mechanism to the PAM service maintained
 by ITS for resetting your password. In any event, given the manageable
-number of users, you can send a request to the accounts alias to have
-your password reset for you. Since we set up all of our accounts to
+number of users, you can e-mail helpdesk@cs.luc.edu to have your
+password reset for you. Since we set up all of our accounts to
 match your university login ID, it is our policy to send your
 replacement password to your Loyola e-mail address. You may also opt to
 meet the lab manager in person but must show your Loyola or a
