@@ -13,10 +13,12 @@ Practical guide for agentic coding assistants operating in this repository.
 ## Key Files
 - `pyproject.toml`: project metadata and dependency constraints.
 - `uv.lock`: locked dependency versions.
-- `Makefile`: canonical setup/build/deploy commands.
+- `Makefile`: canonical setup and build commands.
 - `.editorconfig`: indentation, encoding, newline, whitespace conventions.
 - `.github/workflows/build.yml`: CI build + deploy workflow.
-- `src/index.rst`: root toctree and documentation navigation.
+- `src/index.rst`: landing page and root toctrees (navigation).
+- `src/conf.py`: Sphinx and Book Theme configuration.
+- `src/_static/`: static assets (logo and favicon).
 
 ## Setup Commands
 
@@ -30,14 +32,17 @@ This runs `uv sync`.
 - Canonical documentation build:
 
 ```bash
-make build-html
+uv run make build-html
 ```
 
 - Equivalent direct build:
 
 ```bash
-sphinx-build --write-all src html
+uv run sphinx-build --write-all src html
 ```
+
+- Sphinx does not delete output for removed pages. Run `rm -rf html` before
+  building if pages were deleted or renamed.
 
 ## Validation
 - There are no tests, linters, or pre-commit hooks. Do not add them unless
@@ -62,8 +67,8 @@ sphinx-build --write-all src html
   GitHub Pages actions (no `gh-pages` branch, no `ghp-import`).
 
 ## Agent Working Agreement
-- Before finishing substantial changes, run `make build-html` and confirm
-  there are no warnings.
+- Before finishing substantial changes, run `uv run make build-html` and
+  confirm there are no warnings.
 - Do not add new tooling (pytest/ruff/mypy/pre-commit/etc.) unless requested.
 - Do not modify deployment behavior unless explicitly requested.
 - Avoid committing generated artifacts (`html/`, `dist/`) unless required.
