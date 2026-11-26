@@ -15,8 +15,7 @@ Linux and server-side applications) and ensure ubiquitous access to
 Windows labs via the Loyola login ID.
 
 Faculty may request additional software by visiting ITS, or by sending
-an e-mail to the windows alias (see getting-help{.interpreted-text
-role=“doc”}). In the latter case, the lab manager (Miao Ye) will fill in
+an e-mail to the windows alias (see :doc:`Getting Help </how_to/getting_help>`). In the latter case, the lab manager (Miao Ye) will fill in
 a software request on your behalf. You are encouraged to submit requests
 one month before the end of the current term, if you need the software
 in the summer or following term. For example, if you need software in

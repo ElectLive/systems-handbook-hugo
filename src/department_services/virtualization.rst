@@ -11,7 +11,7 @@ would be visible when you connect via the Loyola VPN. Given our present
 resource limitations, we can only provide virtual machines on a limited
 basis, primarily for faculty and student research/outreach projects.
 Please send your requests to the vm alias (see
-getting-help{.interpreted-text role=“doc”}) and make sure you include
+:doc:`Getting Help </how_to/getting_help>`) and make sure you include
 the following information:
 
 -  **name**: your full name

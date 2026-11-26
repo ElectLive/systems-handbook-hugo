@@ -44,7 +44,7 @@ center.
 Our new GPGPU Server was set up at our ETL. It is SuperServer
 7046GT-TRF-TC4 with 2 x Intel Xeon Quad-Core (16 logical processors),
 96GB RAM, 4 x NVIDIA® Tesla C2075 GPUs. Please read our
-gpgpu-server{.interpreted-text role=“doc”} guide on how to get started.
+:doc:`Durian GPGPU Server </department_services/durian_gpgpu_server>` guide on how to get started.
 
 **********************************
  Emerging Technologies Laboratory

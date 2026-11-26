@@ -63,4 +63,4 @@ Information can be found at
 https://developer.apple.com/programs/ios/university/gettingstarted/.
 
 This program requires a bit of special handling, so please contact the
-lab manager at people{.interpreted-text role=“doc”} to be enrolle
+lab manager at :doc:`People </department_services/people>` to be enrolled.

@@ -20,4 +20,4 @@ own Google Site that is not connected to LUC or the department proper.
 We are not generally taking advantage of e-mail and other services at
 this time and reserve these address for faculty and researchers
 officially connected to the department. To request a Google Site or
-other service, please see getting-help{.interpreted-text role=“doc”}.
+other service, please see :doc:`Getting Help </how_to/getting_help>`.
